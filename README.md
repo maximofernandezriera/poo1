@@ -4,10 +4,10 @@
 
 # APARTADO A – CLASES SIMPLES CON ATRIBUTOS
 
-En cada ejercicio debes crear un programa con dos clases: una clase principal (puedes llamarla por ejemplo UD8_ProgramaPunto según el ejercicio) que solo contendrá la función main además de otra clase (con sus atributos y métodos) que utilizarás desde el main de la clase principal para hacer pruebas sobre su funcionamiento. En este apartado las clases solo contendrán atributos (variables) y haremos algunas pruebas sencillas con ellas para entender cómo se instancia objetos y se accede a sus atributos. Por ahora no utilices ningún modificador en los atributos (public private static final...).
+## En cada ejercicio debes crear un programa con dos clases: una clase principal (puedes llamarla por ejemplo ProgramaPunto según el ejercicio) que solo contendrá la función main además de otra clase (con sus atributos y métodos) que utilizarás desde el main de la clase principal para hacer pruebas sobre su funcionamiento. En este apartado las clases solo contendrán atributos (variables) y haremos algunas pruebas sencillas con ellas para entender cómo se instancia objetos y se accede a sus atributos. Por ahora no utilices ningún modificador en los atributos (public private static final...).
 
-Ejercicio A1 – Punto
-Crea un programa con una clase llamada Punto que representará un punto de dos dimensiones en un plano. Solo contendrá dos atributos enteros llamadas x e y (coordenadas). En el main de la clase principal instancia 3 objetos Punto con las coordenadas (5,0) (10,10) y (-3, 7). Muestra por pantalla sus coordenadas (utiliza un println para cada punto). Modifica todas las coordenadas (prueba distintos operadores como =, +, -, +=, *=...) y vuelve a imprimirlas por pantalla.
+### Ejercicio A1 – Punto
+### Crea un programa con una clase llamada Punto que representará un punto de dos dimensiones en un plano. Solo contendrá dos atributos enteros llamadas x e y (coordenadas). En el main de la clase principal instancia 3 objetos Punto con las coordenadas (5,0) (10,10) y (-3, 7). Muestra por pantalla sus coordenadas (utiliza un println para cada punto). Modifica todas las coordenadas (prueba distintos operadores como =, +, -, +=, *=...) y vuelve a imprimirlas por pantalla.
 
     public class Punto {
         
@@ -60,8 +60,8 @@ Crea un programa con una clase llamada Punto que representará un punto de dos d
 
     }
 
-Ejercicio A2 – Persona
-Crea un programa con una clase llamada Persona que representará los datos principales de una persona: dni, nombre, apellidos y edad. En el main de la clase principal instancia dos objetos de la clase Persona. Luego pide por teclado los datos de ambas personas (guárdalos en los objetos). Por último imprime dos mensajes por pantalla (uno por objeto) con un mensaje del estilo “Azucena Luján García con DNI … es / no es mayor de edad”.
+### Ejercicio A2 – Persona
+### Crea un programa con una clase llamada Persona que representará los datos principales de una persona: dni, nombre, apellidos y edad. En el main de la clase principal instancia dos objetos de la clase Persona. Luego pide por teclado los datos de ambas personas (guárdalos en los objetos). Por último imprime dos mensajes por pantalla (uno por objeto) con un mensaje del estilo “Azucena Luján García con DNI … es / no es mayor de edad”.
 
 
     public class Persona {
@@ -128,8 +128,8 @@ Crea un programa con una clase llamada Persona que representará los datos princ
     }
     }
 
-Ejercicio A3 – Rectángulo
-Crea un programa con una clase llamada Rectangulo que representará un rectángulo mediante dos coordenadas (x1,y1) y (x2,y2) en un plano por lo que la clase deberá tener cuatro atributos enteros: x1, y1, x2, y2. En el main de la clase principal instancia 2 objetos Rectángulo en (0,0)(5,5) y (7,9)(2,3). Muestra por pantalla sus coordenadas, perímetros (suma de lados) y áreas (ancho x alto). Modifica todas las coordenadas como consideres y vuelve a imprimir coordenadas, perímetros y áreas.
+### Ejercicio A3 – Rectángulo
+### Crea un programa con una clase llamada Rectangulo que representará un rectángulo mediante dos coordenadas (x1,y1) y (x2,y2) en un plano por lo que la clase deberá tener cuatro atributos enteros: x1, y1, x2, y2. En el main de la clase principal instancia 2 objetos Rectángulo en (0,0)(5,5) y (7,9)(2,3). Muestra por pantalla sus coordenadas, perímetros (suma de lados) y áreas (ancho x alto). Modifica todas las coordenadas como consideres y vuelve a imprimir coordenadas, perímetros y áreas.
 
 
     public class Rectangulo {
@@ -198,8 +198,8 @@ Crea un programa con una clase llamada Rectangulo que representará un rectángu
 
 }
 
-Ejercicio A4 – Artículo
-Crea un programa con una clase llamada Articulo con los siguientes atributos: nombre, precio (sin IVA), iva (siempre será 21%) y cuantosQuedan (representa cuantos quedan en el almacén). En el main de la clase principal instancia un objeto de la clase artículo. Asígnale valores a todos sus atributos (los que quieras) y muestra por pantalla un mensaje del estilo “Pijama - Precio:10€ - IVA:21% - PVP:12,1€” (el PVP es el precio de venta al público, es decir, el precio con IVA). Luego cambia el precio y vuelve a imprimir el mensaje.
+### Ejercicio A4 – Artículo
+### Crea un programa con una clase llamada Articulo con los siguientes atributos: nombre, precio (sin IVA), iva (siempre será 21%) y cuantosQuedan (representa cuantos quedan en el almacén). En el main de la clase principal instancia un objeto de la clase artículo. Asígnale valores a todos sus atributos (los que quieras) y muestra por pantalla un mensaje del estilo “Pijama - Precio:10€ - IVA:21% - PVP:12,1€” (el PVP es el precio de venta al público, es decir, el precio con IVA). Luego cambia el precio y vuelve a imprimir el mensaje.
 
     public class Articulo {
 
