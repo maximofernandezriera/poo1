@@ -1,12 +1,13 @@
 # PROGRAMACIÓN ORIENTADA A OBJETOS - ejercicios super sencillos
 
-## Estos ejercicios están pensados para empezar creando clases muy sencillas (apartado A) que luego irás mejorando y ampliando (apartados B C…) de modo que practiques y aprendas poco a poco los aspectos fundamentales de la POO. Lo importante es que entiendas qué está pasando. Si no lo tienes claro “juega” con el código haz pruebas “acver qué sucede si...” revisa la teoría etc. Si aún así no lo entiendes pregunta en el foro (copia-pega el código si procede).
+## Estos ejercicios están pensados para empezar creando clases muy sencillas (apartado A) que luego irás mejorando y ampliando (apartados B C…) de modo que practiques y aprendas poco a poco los aspectos fundamentales de la POO. Lo importante es que entiendas qué está pasando. Si no lo tienes claro “juega” con el código haz pruebas.
 
-# APARTADO A – CLASES SIMPLES CON ATRIBUTOS
+# APARTADO A1 – CLASES SIMPLES CON ATRIBUTOS
 
 ## En cada ejercicio debes crear un programa con dos clases: una clase principal (puedes llamarla por ejemplo ProgramaPunto según el ejercicio) que solo contendrá la función main además de otra clase (con sus atributos y métodos) que utilizarás desde el main de la clase principal para hacer pruebas sobre su funcionamiento. En este apartado las clases solo contendrán atributos (variables) y haremos algunas pruebas sencillas con ellas para entender cómo se instancia objetos y se accede a sus atributos. Por ahora no utilices ningún modificador en los atributos (public private static final...).
 
 ### Ejercicio A1 – Punto
+
 ### Crea un programa con una clase llamada Punto que representará un punto de dos dimensiones en un plano. Solo contendrá dos atributos enteros llamadas x e y (coordenadas). En el main de la clase principal instancia 3 objetos Punto con las coordenadas (5,0) (10,10) y (-3, 7). Muestra por pantalla sus coordenadas (utiliza un println para cada punto). Modifica todas las coordenadas (prueba distintos operadores como =, +, -, +=, *=...) y vuelve a imprimirlas por pantalla.
 
     public class Punto {
