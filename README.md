@@ -1,4 +1,4 @@
-# PROGRAMACIÓN ORIENTADA A OBJETOS
+# PROGRAMACIÓN ORIENTADA A OBJETOS - ejercicios super sencillos
 
 ## Estos ejercicios están pensados para empezar creando clases muy sencillas (apartado A) que luego irás mejorando y ampliando (apartados B C…) de modo que practiques y aprendas poco a poco los aspectos fundamentales de la POO. Lo importante es que entiendas qué está pasando. Si no lo tienes claro “juega” con el código haz pruebas “acver qué sucede si...” revisa la teoría etc. Si aún así no lo entiendes pregunta en el foro (copia-pega el código si procede).
 
